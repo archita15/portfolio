@@ -7,7 +7,7 @@ const Navbar = () => {
   return (
     <nav className="mb-20 flex items-center justify-between py-1">
       <div className="flex flex-shrink-0 items-center ml-4">
-        <img src={logo} alt="logo" />
+        <img src={logo} alt="logo" style={{ width: '100px', height: 'auto' }} />
       </div>
       <div className="flex items-center justify-between w-full mr-4">
         <ul className="flex gap-4 ml-auto mr-10 text-2xl"> {/* Added ml-auto */}
